@@ -25,18 +25,12 @@ document.addEventListener('DOMContentLoaded', function() {
             title: 'Graduation Project DT',
             description: 'Website to make booking to conference rooms, which are accessed through RFID cards',
             technologies: ['C#', 'EntityFrameworkCore', 'SQLite'],
-            link: 'Private'
-        },
-        {
-            title: 'Project 2',
-            description: 'Description of project 2',
-            technologies: ['Tech 1', 'Tech 2', 'Tech 3'],
             link: '#'
         },
         {
-            title: 'Project 3',
-            description: 'Description of project 3',
-            technologies: ['Tech 1', 'Tech 2', 'Tech 3'],
+            title: 'CLI banking "app"',
+            description: 'CLI tool that simulates basic banking. Will be published soon.',
+            technologies: ['Python', 'SQLAlchemy', 'Alembic'],
             link: '#'
         }
     ];
@@ -52,9 +46,9 @@ document.addEventListener('DOMContentLoaded', function() {
             <h3>${project.title}</h3>
             <p>${project.description}</p>
             <div class="technologies">
-                ${project.technologies.map(tech => `<span>${tech}</span>`).join('')}
+                ${project.technologies.map(tech => `<span>${tech}</span>`).join(' • ')}
             </div>
-            <a href="${project.link}" class="btn primary">View Project</a>
+            <a href="${project.link}" class="btn primary" style="margin-top: 1.5rem;">View Project</a>
         `;
 
         projectsGrid.appendChild(projectCard);
