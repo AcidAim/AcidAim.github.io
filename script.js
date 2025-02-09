@@ -22,10 +22,10 @@ document.addEventListener('DOMContentLoaded', function() {
     // Sample projects data - replace with your own
     const projects = [
         {
-            title: 'Project 1',
-            description: 'Description of project 1',
-            technologies: ['Tech 1', 'Tech 2', 'Tech 3'],
-            link: '#'
+            title: 'Graduation Project DT',
+            description: 'Website to make booking to conference rooms, which are accessed through RFID cards',
+            technologies: ['C#', 'EntityFrameworkCore', 'SQLite'],
+            link: 'Private'
         },
         {
             title: 'Project 2',
