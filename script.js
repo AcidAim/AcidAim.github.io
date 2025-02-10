@@ -25,7 +25,7 @@ document.addEventListener('DOMContentLoaded', function() {
             title: 'Graduation Project DT',
             description: 'Website to make booking to conference rooms, which are accessed through RFID cards',
             technologies: ['C#', 'EntityFrameworkCore', 'SQLite'],
-            link: '#'
+            link: 'https://github.com/AcidAim/DT-PIF'
         },
         {
             title: 'CLI banking "app"',
